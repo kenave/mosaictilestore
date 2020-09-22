@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Mosaic Tile Store 2.0`,
+    description: `Awesome products, awesome prices, awesome people.`,
+    author: `Ken Averbookh`,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
